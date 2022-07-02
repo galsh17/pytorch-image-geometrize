@@ -1,6 +1,8 @@
 # pytorch-image-geometrize
 
-This is based on the idea presented here: https://www.samcodes.co.uk/project/geometrize-haxe-web/
+Based on the idea presented here: https://www.samcodes.co.uk/project/geometrize-haxe-web/
+
+This is experimental and far from optimized code
 
 The optimization algorithm works as follows:
 1. generate N random sized ellipses
@@ -14,7 +16,8 @@ gradient decent usage is possible due to kornia warping operations which are dif
 ![הורדה (6)](https://user-images.githubusercontent.com/46653045/177013191-35dcecfd-a513-4004-82a3-94edbf246408.png)
 
 further directions:
-1. add more shapes
-2. hyperparameter tuning (tune lr per parameter)
-3. support color images
-4. support ellipse shape optimization (not just angle)
+1. gradient decent halting conditions (improvement less than th - currently just fixed number of steps)
+2. add more shapes
+3. hyperparameter tuning (tune lr per parameter)
+4. support color images
+5. support ellipse shape optimization (not just angle)
