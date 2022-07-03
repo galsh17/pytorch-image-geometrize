@@ -1,8 +1,9 @@
 # pytorch-image-geometrize
 
 Based on the idea presented here: https://www.samcodes.co.uk/project/geometrize-haxe-web/
+The algorithm approximates a given image using solid colored ellipses
 
-This is experimental and far from optimized code
+Note that this is experimental and far from optimized code
 
 The optimization algorithm works as follows:
 1. generate N random sized ellipses
