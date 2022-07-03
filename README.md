@@ -23,9 +23,11 @@ random ellipses without scale optimization:
 ![(6)](https://user-images.githubusercontent.com/46653045/177013191-35dcecfd-a513-4004-82a3-94edbf246408.png)
 
 fixed size circles:
+
 ![(3)](https://user-images.githubusercontent.com/46653045/177013190-37660699-ae43-4d55-a4a8-512a998eb88a.png)
 
 high aspect ratio ellipses:
+
 ![image](https://user-images.githubusercontent.com/46653045/177024807-8ab9b936-cfb7-46a7-a73e-e23b16aea35f.png)
 
 further directions:
@@ -33,4 +35,3 @@ further directions:
 2. add more shapes
 3. hyperparameter tuning (tune lr per parameter)
 4. support color images
-5. support ellipse shape optimization (not just angle)
