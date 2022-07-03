@@ -12,9 +12,10 @@ The optimization algorithm works as follows:
 
 gradient decent usage is possible due to kornia warping operations which are differentiable
 
-![הורדה (2)](https://user-images.githubusercontent.com/46653045/177013188-989a8e19-d156-442c-befa-2705d8b19ca6.png)
-![הורדה (3)](https://user-images.githubusercontent.com/46653045/177013190-37660699-ae43-4d55-a4a8-512a998eb88a.png)
-![הורדה (6)](https://user-images.githubusercontent.com/46653045/177013191-35dcecfd-a513-4004-82a3-94edbf246408.png)
+![(2)](https://user-images.githubusercontent.com/46653045/177013188-989a8e19-d156-442c-befa-2705d8b19ca6.png)
+![(3)](https://user-images.githubusercontent.com/46653045/177013190-37660699-ae43-4d55-a4a8-512a998eb88a.png)
+![(6)](https://user-images.githubusercontent.com/46653045/177013191-35dcecfd-a513-4004-82a3-94edbf246408.png)
+![image](https://user-images.githubusercontent.com/46653045/177024807-8ab9b936-cfb7-46a7-a73e-e23b16aea35f.png)
 
 further directions:
 1. gradient decent halting conditions (improvement less than th - currently just fixed number of steps)
